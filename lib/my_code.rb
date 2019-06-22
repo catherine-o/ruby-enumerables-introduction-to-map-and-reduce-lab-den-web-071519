@@ -45,7 +45,7 @@ new_array
 end 
 
 
-def reduce_to_total(source_array, starting_point)
+def reduce_to_total(source_array, starting_point=0)
   total = starting_point
   i = 0
   
